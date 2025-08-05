@@ -13,11 +13,7 @@ A comprehensive Power BI dashboard for analyzing loan application data with insi
 - [Data Processing](#data-processing)
 - [DAX Measures](#dax-measures)
 - [Visualizations](#visualizations)
-- [Getting Started](#getting-started)
 - [File Structure](#file-structure)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -63,3 +59,49 @@ def remove_outliers(df, col):
     lower = Q1 - 1.5 * IQR
     upper = Q3 + 1.5 * IQR
     return df[(df[col] >= lower) & (df[col] <= upper)]
+```
+
+## DAX Measures
+Key measures developed in Power BI:
+```python
+// Basic counts
+Total Applicants = COUNTROWS(Applicants)
+
+// Financial metrics
+Average Income = AVERAGE(Applicants[AMT_INCOME_TOTAL])
+
+// Rate calculations
+Loan Approval Rate = DIVIDE(
+    [Total Previous Loans] - [Total Defaults], 
+    [Total Previous Loans]
+)
+```
+## Visualizations
+Visualization	  Purpose
+kpi_cards : 	Top-level metrics
+approval_rate :  Loan approval percentage
+income_vs_credit :	Risk pattern analysis
+default_trend :	Seasonal default patterns
+
+## file-structure
+loan-risk-analytics/
+├── DATASETS/
+│   ├── raw/
+│   │   ├── application_data.csv
+│   │   └── previous_application.csv
+│   └── cleaned/
+│       ├── cleaned_application_data.csv
+│       └── cleaned_previous_application.csv
+├── docs/
+│   ├── dashboard_screenshot.png
+│   └── visualizations/
+├── scripts/
+│   ├── data_cleaning.py
+│   └── loan_data_analytics_report.py
+├── Loan Risk Analytics Dashboard.pbix
+├── README.md
+└── requirements.txt
+
+Created by: Tusha Rahul Bellamkonda
+Email: tusharahul82@gmail.com
+Project Link: https://cobalt-final-assignment-tusharahul-bellamkonda.streamlit.app/
