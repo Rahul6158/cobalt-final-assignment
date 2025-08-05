@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
 
+pd.options.mode.chained_assignment = None  # suppress SettingWithCopyWarning
+
 # File paths
 app_data_path = r"D:\cobalt\application_data.csv"
 prev_app_path = r"D:\cobalt\previous_application.csv"
