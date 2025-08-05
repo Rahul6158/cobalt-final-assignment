@@ -1,5 +1,7 @@
 # cobalt-final-assignment
-This Power BI solution helps banks and lenders analyze loan applications to identify high-risk borrowers and reduce defaults. The dashboard processes loan application data to uncover patterns in customer profiles, loan terms, and repayment behavior that predict payment difficulties
+This Power BI solution helps banks and lenders analyze loan applications to identify high-risk borrowers and reduce defaults. The dashboard processes loan application data to uncover patterns in customer profiles, loan terms, and repayment behavior that predict payment difficulties.
+
+**Project Link:** https://cobalt-final-assignment-tusharahul-bellamkonda.streamlit.app/
 
 # Loan Risk Analytics Dashboard
 
@@ -106,6 +108,9 @@ loan-risk-analytics/
 ```
 
 ## Creator details and Project Deetails
-Created by: Tusha Rahul Bellamkonda
+Created by: 
+Tusha Rahul Bellamkonda
+
 Email: tusharahul82@gmail.com
+
 Project Link: https://cobalt-final-assignment-tusharahul-bellamkonda.streamlit.app/
