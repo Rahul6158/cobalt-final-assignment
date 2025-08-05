@@ -85,6 +85,7 @@ income_vs_credit :	Risk pattern analysis
 default_trend :	Seasonal default patterns
 
 ## file-structure
+```Python
 loan-risk-analytics/
 ├── DATASETS/
 │   ├── raw/
@@ -102,7 +103,7 @@ loan-risk-analytics/
 ├── Loan Risk Analytics Dashboard.pbix
 ├── README.md
 └── requirements.txt
-
+```
 
 ## Creator details and Project Deetails
 Created by: Tusha Rahul Bellamkonda
