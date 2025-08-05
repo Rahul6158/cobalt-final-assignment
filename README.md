@@ -14,6 +14,7 @@ A comprehensive Power BI dashboard for analyzing loan application data with insi
 - [DAX Measures](#dax-measures)
 - [Visualizations](#visualizations)
 - [File Structure](#file-structure)
+- [Creator details and Project Deetails](#Creator-details-and-Project-Deetails)
 
 ## Project Overview
 
@@ -102,6 +103,8 @@ loan-risk-analytics/
 ├── README.md
 └── requirements.txt
 
+
+## Creator details and Project Deetails
 Created by: Tusha Rahul Bellamkonda
 Email: tusharahul82@gmail.com
 Project Link: https://cobalt-final-assignment-tusharahul-bellamkonda.streamlit.app/
